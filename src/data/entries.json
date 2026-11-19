@@ -1,0 +1,811 @@
+[
+  {
+    "id": "M-0001",
+    "code": "4.1.1",
+    "term": "Ciência",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Ciência e tecnologia",
+      "Método científico",
+      "Programa de pesquisa"
+    ],
+    "definition": [
+      "De modo geral, ciência é a atividade organizada de produção de conhecimento que procura descrever, explicar e prever fenômenos por meio de métodos que a comunidade científica pode examinar e criticar. Em Ciência da Computação, a pergunta “o que torna um trabalho científico?” é recorrente, e por isso os livros de metodologia da área começam situando o campo entre as classificações das ciências.",
+      "Wazlawick (2014, cap. 2) apresenta a Computação à luz de várias classificações: ciências formais e empíricas, puras e aplicadas, exatas e inexatas, hard e soft, nomotéticas e idiográficas. O relatório de Denning et al. (1989), produzido por um grupo de trabalho da ACM, parte do debate sobre se a Computação seria ciência, engenharia ou mera tecnologia e propõe tratá-la como uma disciplina que articula teoria, abstração (modelagem) e projeto (design)."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. DENNING, Peter J. et al. Computing as a discipline. Communications of the ACM, New York, v. 32, n. 1, p. 9-23, jan. 1989. Disponível em: https://doi.org/10.1145/63238.63239. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0002",
+    "code": "4.1.2",
+    "term": "Ciência e tecnologia",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Ciência",
+      "Design Science Research",
+      "Objetivos de pesquisa"
+    ],
+    "definition": [
+      "Ciência e tecnologia se complementam, mas têm propósitos distintos: a ciência busca ampliar o conhecimento sobre um fenômeno (descrever, explicar, prever), enquanto a tecnologia busca construir artefatos, técnicas e soluções para problemas práticos. Na Computação as duas atividades se misturam com frequência, o que torna indispensável deixar claro qual é o produto principal do trabalho.",
+      "Wazlawick (2014) dedica uma seção à relação entre ciência e tecnologia (seção 4.4) e outra à diferença entre objetivo de pesquisa e objetivo técnico (seção 6.3.2). Como síntese da equipe: construir um sistema é, em si, um objetivo técnico; para que o trabalho seja científico,",
+      "é preciso formular um problema, uma hipótese e um método capaz de avaliar a contribuição do artefato ao conhecimento da área.",
+      "Uma abordagem que trabalha justamente essa fronteira é a design science, segundo a qual o conhecimento sobre um problema e sua solução é obtido na construção e na aplicação de um artefato projetado (Hevner et al., 2004)."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. HEVNER, Alan R. et al. Design science in information systems research. MIS Quarterly, [S. l.], v. 28, n. 1, p. 75-105, mar. 2004. Disponível em: https://doi.org/10.2307/25148625. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0003",
+    "code": "4.1.3",
+    "term": "Dados, informação e conhecimento",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Ciência",
+      "Variáveis e definições operacionais"
+    ],
+    "definition": [
+      "Setzer (1999) propõe um caminho do mais formal ao menos formal: parte do dado, que pode ser definido matematicamente, e acrescenta características para chegar aos demais conceitos. Para o autor, dado é uma sequência de símbolos quantificados ou quantificáveis; informação é uma abstração informal, ligada ao significado que alguém atribui aos dados; conhecimento é uma abstração pessoal que exige vivência do objeto conhecido; e a competência depende de dois fatores, o que leva à chamada matriz de competências.",
+      "Um ponto útil para quem pesquisa em Computação: segundo o autor, o processamento de dados em um computador se limita a manipulações estruturais dos dados; atribuir significado (informação) e construir conhecimento são processos que ocorrem nas pessoas."
+    ],
+    "references": [
+      "SETZER, Valdemar W. Dado, informação, conhecimento e competência. DataGramaZero: Revista de Ciência da Informação, [S. l.], n. zero, dez. 1999. Disponível em: https://cip.brapci.inf.br/download/45629. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0004",
+    "code": "4.1.4",
+    "term": "Método científico",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Indução",
+      "Refutação",
+      "Lâmina de Occam"
+    ],
+    "definition": [
+      "Método científico é o conjunto de princípios e procedimentos que orienta como o conhecimento científico é produzido e justificado. O capítulo 3 de Wazlawick (2014) percorre as bases filosóficas da pesquisa em Computação: empirismo, positivismo, pragmatismo, objetividade, indução, refutação, coerentismo e lâmina de Occam.",
+      "Em síntese (redação da equipe, a conferir no capítulo): o empirismo valoriza a experiência como fonte do conhecimento; o positivismo toma como base fatos observáveis e verificáveis; o pragmatismo avalia ideias por suas consequências práticas; a objetividade busca reduzir a influência do pesquisador sobre os resultados; o coerentismo justifica uma afirmação por sua coerência com um conjunto de outras. Indução, refutação e lâmina de Occam têm verbetes próprios."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0005",
+    "code": "4.1.5",
+    "term": "Indução",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Método científico",
+      "Refutação"
+    ],
+    "definition": [
+      "Indução é o raciocínio que parte de casos particulares observados para formular uma generalização. Suas conclusões são prováveis, não certas: por mais casos que se observem, um caso futuro pode contrariar a regra. Wazlawick (2014, seção 3.5) a inclui entre as bases do método científico.",
+      "Exemplo ilustrativo em Computação: executar um algoritmo com milhares de entradas de teste e observar que sempre funciona sugere, mas não prova, que ele está correto para todas as entradas; a demonstração formal de correção segue outro tipo de raciocínio."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0006",
+    "code": "4.1.6",
+    "term": "Refutação (falseabilidade)",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Hipótese",
+      "Programa de pesquisa",
+      "Indução"
+    ],
+    "definition": [
+      "Refutação é o critério, associado a Karl Popper, segundo o qual uma afirmação só é científica se for possível indicar observações que a contradiriam; o progresso vem de tentar refutar hipóteses, e não apenas de colecionar confirmações. Wazlawick (2014, seção 3.6) trata do tema, e Lakatos (1979) discute o falseamento de Popper ao propor sua metodologia dos programas de pesquisa.",
+      "Exemplo ilustrativo: “o algoritmo A é mais rápido que o B para entradas do tipo X” pode ser refutado por medição; “o algoritmo A é melhor” não define que evidência o contrariaria e, portanto, não é testável."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. LAKATOS, Imre. O falseamento e a metodologia dos programas de pesquisa científica. In: LAKATOS, Imre; MUSGRAVE, Alan (org.). A crítica e o desenvolvimento do conhecimento. Tradução: O. M. Cajado. São Paulo: Cultrix: Edusp, 1979. p. 109-243."
+    ]
+  },
+  {
+    "id": "M-0007",
+    "code": "4.1.7",
+    "term": "Lâmina de Occam",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Método científico"
+    ],
+    "definition": [
+      "Princípio da parcimônia: entre explicações ou modelos que dão conta igualmente bem dos fatos, deve-se preferir o mais simples. Wazlawick (2014, seção 3.8) a inclui entre os fundamentos do método. Na prática, funciona como alerta contra soluções desnecessariamente complexas e como justificativa para comparar uma proposta com uma linha de base simples."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0008",
+    "code": "4.1.8",
+    "term": "Programa de pesquisa",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Refutação",
+      "Ciência",
+      "Método científico"
+    ],
+    "definition": [
+      "Conceito proposto por Imre Lakatos (1979) para descrever o desenvolvimento da ciência: em vez de teorias isoladas, a unidade de análise é uma sucessão de teorias que preserva um “núcleo duro” de teses, protegido por um cinturão de hipóteses auxiliares que podem ser modificadas. Pela heurística negativa, não se ataca o núcleo; pela positiva, sugerem-se caminhos para desenvolver o cinturão. Um programa é progressivo quando suas modificações levam a previsões novas corroboradas, e degenerativo quando apenas acomodam anomalias.",
+      "Lakatos procurou sintetizar a visão historicista de Thomas Kuhn com o racionalismo associado a Popper, e Renner e Pessoa Jr. (2016) discutem a aplicação dessa metodologia à",
+      "avaliação de processos tecnológicos. Sugestão de uso no aplicativo: marcar linhas de pesquisa da Computação como “programas” para comparar sua evolução."
+    ],
+    "references": [
+      "LAKATOS, Imre. O falseamento e a metodologia dos programas de pesquisa científica. In: LAKATOS, Imre; MUSGRAVE, Alan (org.). A crítica e o desenvolvimento do conhecimento. Tradução: O. M. Cajado. São Paulo: Cultrix: Edusp, 1979. p. 109-243. RENNER, Jorge Eugenio; PESSOA JR., Osvaldo. Avaliação dos processos tecnológicos a partir da metodologia dos programas de pesquisa científicos de Lakatos. Revista Tecnologia e Sociedade, Curitiba, v. 12, n. 24, p. 1-26, jan./abr. 2016. Disponível em: https://www.redalyc.org/pdf/4966/496654011009.pdf. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0009",
+    "code": "4.1.9",
+    "term": "Hipótese",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Refutação",
+      "Variáveis e definições operacionais",
+      "Problema de pesquisa"
+    ],
+    "definition": [
+      "Hipótese é uma resposta provisória e testável ao problema de pesquisa. Wazlawick (2014) dedica seções à hipótese de pesquisa (6.5) e à sua justificativa (6.6). Uma boa hipótese é específica, indica o que será comparado ou medido e pode ser refutada pelos dados.",
+      "Exemplo ilustrativo: “a técnica X reduz o tempo médio de resposta em pelo menos 20% em relação à técnica Y nos cenários Z”."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0010",
+    "code": "4.1.10",
+    "term": "Variáveis e definições operacionais",
+    "categoryId": 1,
+    "category": "Ciência, conhecimento e método",
+    "related": [
+      "Hipótese",
+      "Experimento controlado"
+    ],
+    "definition": [
+      "Variável é uma característica que pode assumir valores diferentes; costuma-se distinguir a variável independente (a que se manipula ou compara) da dependente (a que se mede). A definição operacional descreve como o conceito será medido ou observado, de modo que outro pesquisador possa repetir o procedimento. Wazlawick (2014) trata de dados versus conceitos (6.4.1), definições constitutivas e operacionais (6.4.2) e variáveis (6.4.3).",
+      "Exemplo ilustrativo: variável independente = algoritmo; variável dependente = tempo de execução; definição operacional = tempo médio de 30 execuções, em milissegundos, em hardware e conjunto de dados especificados."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em:",
+      "https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026.",
+      "4.2 Pesquisa: planejamento, tipos e métodos"
+    ]
+  },
+  {
+    "id": "M-0011",
+    "code": "4.2.1",
+    "term": "Pesquisa",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Problema de pesquisa",
+      "Tipos de pesquisa"
+    ],
+    "definition": [
+      "Pesquisa é o processo planejado e sistemático de buscar respostas para problemas por meio de métodos científicos (Gil, 2022). Diferencia-se da simples consulta a informações porque parte de um problema delimitado, adota procedimentos explícitos e produz resultados que outros podem examinar. O caderno da equipe remete este verbete a Gil; a página exata deve ser conferida no exemplar."
+    ],
+    "references": [
+      "GIL, Antonio Carlos. Como elaborar projetos de pesquisa. 7. ed. São Paulo: Atlas, 2022. 186 p. ISBN 978-65-5977-163-9."
+    ]
+  },
+  {
+    "id": "M-0012",
+    "code": "4.2.2",
+    "term": "Problema de pesquisa",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Pesquisa",
+      "Hipótese",
+      "Objetivos de pesquisa"
+    ],
+    "definition": [
+      "Problema de pesquisa é a lacuna ou questão específica que o trabalho se propõe a resolver. Não se confunde com o tema, que é mais amplo: Wazlawick (2014, seções 6.1.2 e 6.1.3) trata separadamente a escolha do tema e a formulação do problema. Na tradição de Gil, o problema é formulado como pergunta (Gil, 2002, seção 2.3.2, conforme o sumário da 4ª edição), o que facilita verificar se o trabalho o responde.",
+      "Exemplo ilustrativo: tema = ensino de programação; problema = “o uso de feedback automático em exercícios reduz a taxa de reprovação em Introdução à Programação?”."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. GIL, Antonio Carlos. Como elaborar projetos de pesquisa. 4. ed. São Paulo: Atlas, 2002. ISBN 85-224-3169-8."
+    ]
+  },
+  {
+    "id": "M-0013",
+    "code": "4.2.3",
+    "term": "Objetivos de pesquisa",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Problema de pesquisa",
+      "Ciência e tecnologia"
+    ],
+    "definition": [
+      "Objetivo de pesquisa é o que o trabalho pretende alcançar em termos de conhecimento. Wazlawick (2014, seção 6.3) discute a extensão do objetivo, a diferença entre objetivo de",
+      "pesquisa e objetivo técnico e os objetivos específicos. De forma geral, o objetivo geral indica o resultado central e os específicos o desdobram em etapas verificáveis."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0014",
+    "code": "4.2.4",
+    "term": "Tipos de pesquisa (Wazlawick)",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Pesquisa",
+      "Estilos de pesquisa em Computação",
+      "Estudo de caso",
+      "Experimento controlado"
+    ],
+    "definition": [
+      "No caderno da equipe, este verbete remete a Wazlawick (o “Tipo Vava”). O capítulo 4 de Wazlawick (2014) classifica os métodos de pesquisa em três dimensões: quanto à natureza (seção 4.1), quanto aos objetivos (seção 4.2) e quanto aos procedimentos técnicos (seção 4.3).",
+      "Em linhas gerais, e conforme a classificação clássica da literatura de metodologia (por exemplo, Gil, 2022): a natureza distingue pesquisa básica (gera conhecimento sem aplicação imediata) de pesquisa aplicada (busca resolver um problema específico); os objetivos separam pesquisas exploratórias, descritivas e explicativas; e os procedimentos técnicos incluem, entre outros, pesquisa bibliográfica, documental, experimento, estudo de caso, levantamento (survey) e pesquisa-ação. A lista exata de categorias adotada por Wazlawick deve ser conferida pela equipe no capítulo 4 do exemplar."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. GIL, Antonio Carlos. Como elaborar projetos de pesquisa. 7. ed. São Paulo: Atlas, 2022. 186 p. ISBN 978-65-5977-163-9."
+    ]
+  },
+  {
+    "id": "M-0015",
+    "code": "4.2.5",
+    "term": "Estilos de pesquisa em Computação",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Tipos de pesquisa (Wazlawick)",
+      "Hipótese"
+    ],
+    "definition": [
+      "Wazlawick (2014, cap. 5) propõe uma tipologia de estilos de trabalho de pesquisa correntes em Computação, nomeados pelo tipo de contribuição apresentada: (1) apresentação de um produto; (2) apresentação de algo diferente; (3) apresentação de algo presumivelmente melhor; (4) apresentação de algo reconhecidamente melhor; (5) apresentação de uma prova. O capítulo se encerra com uma discussão sobre esses estilos (seção 5.6).",
+      "Ideia para o aplicativo: usar os cinco estilos como filtro, para que o usuário identifique em qual deles seu trabalho se encaixa e que tipo de evidência é esperada (a conferir no texto do autor)."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0016",
+    "code": "4.2.6",
+    "term": "Revisão bibliográfica",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Ficha de leitura",
+      "Revisão sistemática da literatura"
+    ],
+    "definition": [
+      "Revisão bibliográfica é o levantamento e a leitura crítica da literatura sobre o tema e o problema, que permite conhecer o estado da arte, evitar repetições e fundamentar a proposta. Wazlawick (2014, seção 6.2) a organiza em tópicos como fichas de leitura, tipos de fontes bibliográficas, o que deve ser necessariamente lido, leitura crítica, sistematização da pesquisa bibliográfica e como terminar a revisão. Quando o levantamento segue um protocolo explícito e reproduzível, trata-se de uma revisão sistemática (verbete seguinte)."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0017",
+    "code": "4.2.7",
+    "term": "Ficha de leitura",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Revisão bibliográfica",
+      "Referência (ABNT NBR 6023)"
+    ],
+    "definition": [
+      "Ficha de leitura (fichamento) é o registro estruturado do que se leu. Wazlawick (2014, seção 6.2.1) a inclui no processo de revisão bibliográfica. Modelo sugerido pela equipe: referência completa já no formato ABNT; problema e objetivo da fonte; método; resultados principais; citações úteis com número de página; comentário crítico; relevância para o trabalho."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0018",
+    "code": "4.2.8",
+    "term": "Revisão sistemática da literatura",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "PRISMA",
+      "Revisão bibliográfica",
+      "Estudo de caso"
+    ],
+    "definition": [
+      "A revisão sistemática da literatura (RSL) é um método de pesquisa secundária que identifica, seleciona e sintetiza estudos relevantes segundo um protocolo definido antes da execução, para que outros possam repetir o processo. O guia de Kitchenham e Charters (2007), voltado à Engenharia de Software e destinado inclusive a estudantes de doutorado, organiza a RSL em três fases: planejar, conduzir e relatar a revisão. O documento também trata de variantes, como os estudos de mapeamento sistemático e as revisões terciárias (revisões de revisões)."
+    ],
+    "references": [
+      "KITCHENHAM, Barbara; CHARTERS, Stuart. Guidelines for performing systematic literature reviews in software engineering. Version 2.3. Keele: Keele University; Durham: University of Durham, 2007. (EBSE Technical Report, EBSE-2007-01)."
+    ]
+  },
+  {
+    "id": "M-0019",
+    "code": "4.2.9",
+    "term": "PRISMA 2020",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Revisão sistemática da literatura"
+    ],
+    "definition": [
+      "PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses) é uma diretriz para relatar revisões sistemáticas. A versão de 2020 substitui a de 2009 e reúne uma lista de verificação de 27 itens, uma lista expandida, uma lista para resumos e diagramas de fluxo revisados para revisões originais e atualizadas (Page et al., 2021). Foi concebida principalmente para revisões sobre efeitos de intervenções em saúde, mas pode ser usada em revisões originais, atualizadas ou contínuas; ao aplicá-la em Computação, convém avaliar eventuais adaptações e justificá-las."
+    ],
+    "references": [
+      "PAGE, Matthew J. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ, London, v. 372, art. n71, 29 mar. 2021. Disponível em: https://doi.org/10.1136/bmj.n71. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0020",
+    "code": "4.2.10",
+    "term": "Estudo de caso",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Tipos de pesquisa (Wazlawick)",
+      "Ameaças à validade"
+    ],
+    "definition": [
+      "Segundo Runeson e Höst (2009), o estudo de caso é uma metodologia adequada à pesquisa em Engenharia de Software porque investiga fenômenos contemporâneos em seu contexto natural. O artigo apresenta práticas recomendadas e listas de verificação, derivadas empiricamente, para pesquisadores que conduzem estudos de caso e para leitores que os avaliam."
+    ],
+    "references": [
+      "RUNESON, Per; HÖST, Martin. Guidelines for conducting and reporting case study research in software engineering. Empirical Software Engineering, [S. l.], v. 14, n. 2, p. 131-164, abr. 2009. Disponível em: https://doi.org/10.1007/s10664-008-9102-8. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0021",
+    "code": "4.2.11",
+    "term": "Experimento controlado",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Variáveis e definições operacionais",
+      "Ameaças à validade"
+    ],
+    "definition": [
+      "Wohlin et al. (2012) apresentam os estudos empíricos em Engenharia de Software tendo como foco os experimentos controlados, organizados em cinco etapas: definição do escopo, planejamento, operação, análise e interpretação, e apresentação e empacotamento. O livro traz ainda capítulos introdutórios sobre estratégias empíricas, medição, revisões sistemáticas e estudos de caso."
+    ],
+    "references": [
+      "WOHLIN, Claes et al. Experimentation in software engineering. Berlin; Heidelberg: Springer, 2012. Disponível em: https://doi.org/10.1007/978-3-642-29044-2. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0022",
+    "code": "4.2.12",
+    "term": "Design Science Research",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Ciência e tecnologia",
+      "Experimento controlado"
+    ],
+    "definition": [
+      "Hevner et al. (2004) distinguem dois paradigmas na pesquisa em Sistemas de Informação: a ciência comportamental, que desenvolve e verifica teorias sobre o comportamento humano ou organizacional, e a design science, que busca ampliar as capacidades humanas e organizacionais criando artefatos inovadores. No segundo paradigma, o conhecimento sobre o problema e sua solução se obtém na construção e na aplicação do artefato, e o artigo propõe diretrizes para conduzir e avaliar esse tipo de pesquisa.",
+      "Sugestão da equipe: o próprio aplicativo Metodologiário pode ser descrito como um artefato avaliado segundo essa abordagem."
+    ],
+    "references": [
+      "HEVNER, Alan R. et al. Design science in information systems research. MIS Quarterly, [S. l.], v. 28, n. 1, p. 75-105, mar. 2004. Disponível em: https://doi.org/10.2307/25148625. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0023",
+    "code": "4.2.13",
+    "term": "Ameaças à validade e limitações",
+    "categoryId": 2,
+    "category": "Pesquisa: planejamento, tipos e métodos",
+    "related": [
+      "Experimento controlado",
+      "Estudo de caso"
+    ],
+    "definition": [
+      "Ameaças à validade são fatores que podem comprometer a confiança nas conclusões de um estudo. Wohlin et al. (2012) as discutem em quatro categorias: de conclusão, interna, de construto e externa. Wazlawick (2014, seção 6.8) trata das limitações do trabalho, isto é, do que a pesquisa não pretende nem consegue cobrir. Declarar ameaças e limitações é prática de honestidade científica e orienta a leitura dos resultados."
+    ],
+    "references": [
+      "WOHLIN, Claes et al. Experimentation in software engineering. Berlin; Heidelberg: Springer, 2012. Disponível em: https://doi.org/10.1007/978-3-642-29044-2. Acesso em: 2 nov. 2026. WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026.",
+      "4.3 Trabalho científico, escrita e normas"
+    ]
+  },
+  {
+    "id": "M-0024",
+    "code": "4.3.1",
+    "term": "Tipos de trabalho científico",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Estrutura de trabalho científico",
+      "Monografia, dissertação e tese"
+    ],
+    "definition": [
+      "A literatura de metodologia distingue tipos de trabalho acadêmico, cada um com finalidade, estrutura e exigência próprias. Severino (2016) é referência clássica para orientar a elaboração desses trabalhos na vida universitária; lançada em 1975, a obra está na 24ª edição e foi eleita Livro Acadêmico Clássico de 2025 pelo Prêmio Jabuti Acadêmico. O próprio autor ressalva que não se trata de livro de iniciação à pesquisa propriamente dita, mas de hábitos gerais do trabalho acadêmico (Jornal da USP).",
+      "Tipos frequentemente tratados nesse campo: resumo, resenha, fichamento, seminário, projeto de pesquisa, relatório, artigo, monografia ou TCC, dissertação e tese (lista ilustrativa da equipe; conferir no sumário de Severino quais a obra aborda)."
+    ],
+    "references": [
+      "SEVERINO, Antônio Joaquim. Metodologia do trabalho científico. 24. ed. rev. e atual. São Paulo: Cortez, 2016. 317 p. ISBN 978-85-249-2448-4. OBRA de professor da USP é o Livro Acadêmico Clássico de 2025. Jornal da USP, São Paulo, [2025]. Disponível em: https://jornal.usp.br/?p=915834. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0025",
+    "code": "4.3.2",
+    "term": "Estrutura de trabalho científico",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Normas ABNT",
+      "Resumo",
+      "Projeto de pesquisa"
+    ],
+    "definition": [
+      "A ABNT NBR 14724:2024 organiza o trabalho acadêmico em elementos pré-textuais (como capa, folha de rosto, resumo e sumário), textuais (introdução, desenvolvimento e conclusão) e pós-textuais (como referências, apêndices e anexos).",
+      "Para monografias em Computação, Wazlawick (2014, cap. 8) trata da ordem dos capítulos, de como a banca pode ler o texto e de cada parte: título, resumo, introdução, revisão bibliográfica, desenvolvimento, conclusões, trabalhos futuros e referências."
+    ],
+    "references": [
+      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 14724: informação e documentação: trabalhos acadêmicos: apresentação. Rio de Janeiro: ABNT, 2024. Versão corrigida: 2025. WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0026",
+    "code": "4.3.3",
+    "term": "Projeto de pesquisa",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Problema de pesquisa",
+      "Objetivos de pesquisa",
+      "Hipótese"
+    ],
+    "definition": [
+      "Projeto de pesquisa é o documento que planeja a investigação antes de sua execução. A ABNT NBR 15287:2025 trata de sua apresentação; Gil (2022) é a obra de referência sobre como elaborá-lo; e Wazlawick (2014, cap. 6) percorre os componentes da preparação do trabalho: objetivo, tema, problema, revisão bibliográfica, método, hipótese, justificativa, resultados esperados e limitações."
+    ],
+    "references": [
+      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 15287: informação e documentação: projeto de pesquisa: apresentação. Rio de Janeiro: ABNT, 2025. GIL, Antonio Carlos. Como elaborar projetos de pesquisa. 7. ed. São Paulo: Atlas, 2022. 186 p. ISBN 978-65-5977-163-9. WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0027",
+    "code": "4.3.4",
+    "term": "Resumo",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Estrutura de trabalho científico",
+      "Artigo científico"
+    ],
+    "definition": [
+      "Resumo é a apresentação concisa dos pontos relevantes de um texto. A ABNT NBR 6028:2021 trata de resumo, resenha e recensão. Wazlawick (2014, seção 8.5) aborda o resumo da monografia; na prática, ele deve permitir que o leitor entenda problema, método e contribuição sem ler o trabalho inteiro."
+    ],
+    "references": [
+      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6028: informação e documentação: resumo, resenha e recensão: apresentação. Rio de Janeiro: ABNT, 2021. WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0028",
+    "code": "4.3.5",
+    "term": "Artigo científico",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Periódicos da área",
+      "Eventos científicos da área"
+    ],
+    "definition": [
+      "Artigo científico é um texto curto e autocontido que comunica uma contribuição à comunidade e passa por avaliação de pares. Wazlawick (2014, cap. 9) trata de autores, motivação, trabalhos correlacionados, contribuição, tipos de artigo (teórico, relato de experiência e artigos sobre métodos), veículos de publicação, ética no envio e Qualis."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0029",
+    "code": "4.3.6",
+    "term": "Monografia, dissertação e tese",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Tipos de trabalho científico"
+    ],
+    "definition": [
+      "São os trabalhos de conclusão de graduação, especialização, mestrado e doutorado. Wazlawick (2014, cap. 11) discute os níveis de exigência de cada um em Computação, e a ABNT NBR 14724:2024 define sua apresentação formal."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 14724: informação e documentação: trabalhos acadêmicos: apresentação. Rio de Janeiro: ABNT, 2024. Versão corrigida: 2025."
+    ]
+  },
+  {
+    "id": "M-0030",
+    "code": "4.3.7",
+    "term": "Normas ABNT (visão geral)",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Referência (ABNT NBR 6023)",
+      "Citação (ABNT NBR 10520)",
+      "Estrutura de trabalho"
+    ],
+    "definition": [
+      "científico. Normas da ABNT usadas em trabalhos acadêmicos e vigentes segundo as fontes consultadas: NBR 14724:2024 (trabalhos acadêmicos), NBR 6023:2025 (referências), NBR 10520:2023 (citações), NBR 6028:2021 (resumo, resenha e recensão) e NBR 15287:2025 (projeto de pesquisa). Atenção: as normas costumam ser revisadas; antes de cada entrega, confirme a edição vigente no catálogo da ABNT."
+    ],
+    "references": [
+      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 14724: informação e documentação: trabalhos acadêmicos: apresentação. Rio de Janeiro: ABNT, 2024. Versão corrigida: 2025. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6023: informação e documentação: referências: elaboração. 3. ed. Rio de Janeiro: ABNT, 2025. 68 p.",
+      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 10520: informação e documentação: citações em documentos: apresentação. 2. ed. Rio de Janeiro: ABNT, 2023. 19 p. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6028: informação e documentação: resumo, resenha e recensão: apresentação. Rio de Janeiro: ABNT, 2021. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 15287: informação e documentação: projeto de pesquisa: apresentação. Rio de Janeiro: ABNT, 2025."
+    ]
+  },
+  {
+    "id": "M-0031",
+    "code": "4.3.8",
+    "term": "Referência (ABNT NBR 6023)",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Citação (ABNT NBR 10520)",
+      "Ficha de leitura"
+    ],
+    "definition": [
+      "Referência é o conjunto padronizado de elementos que identifica as fontes usadas em um trabalho. A ABNT NBR 6023:2025 (3ª edição, de 21/05/2025, com 68 páginas) estabelece os elementos a incluir nas referências.",
+      "Neste documento, cada verbete traz suas referências logo após o conteúdo: sobrenome do autor em maiúsculas, título em destaque, edição, local, editora e ano; documentos online incluem o endereço e a data de acesso. A equipe deve conferir esses detalhes de formatação no texto integral da norma."
+    ],
+    "references": [
+      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6023: informação e documentação: referências: elaboração. 3. ed. Rio de Janeiro: ABNT, 2025. 68 p."
+    ]
+  },
+  {
+    "id": "M-0032",
+    "code": "4.3.9",
+    "term": "Citação (ABNT NBR 10520)",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Referência (ABNT NBR 6023)",
+      "Plágio e direitos autorais"
+    ],
+    "definition": [
+      "Citação é a menção, no corpo do texto, de informação obtida em outra fonte. A ABNT NBR 10520:2023 é a segunda edição e cancela e substitui a de 2002. Adota-se aqui o sistema autor-data: “segundo Gil (2022)” ou “(Gil, 2022)”; para dois autores, “Runeson e Höst (2009)” ou “(Runeson; Höst, 2009)”. A citação indireta reproduz a ideia com palavras próprias; a direta transcreve o texto entre aspas e indica a página.",
+      "Todo autor citado no texto deve constar nas referências, e vice-versa."
+    ],
+    "references": [
+      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 10520: informação e documentação: citações em documentos: apresentação. 2. ed. Rio de Janeiro: ABNT, 2023. 19 p."
+    ]
+  },
+  {
+    "id": "M-0033",
+    "code": "4.3.10",
+    "term": "Normas APA",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Normas ABNT (visão geral)",
+      "Citação (ABNT NBR 10520)"
+    ],
+    "definition": [
+      "APA é o estilo de citação e referência da American Psychological Association, descrito no Publication Manual, 7ª edição (2020). Usa o sistema autor-data e, na 7ª edição,",
+      "apresenta o DOI como endereço (https://doi.org/...). Eventos e periódicos de Computação podem exigir estilos próprios (por exemplo, o de cada sociedade ou editora); sempre consulte as instruções para autores."
+    ],
+    "references": [
+      "AMERICAN PSYCHOLOGICAL ASSOCIATION. Publication manual of the American Psychological Association. 7th ed. Washington, DC: APA, 2020. Disponível em: https://doi.org/10.1037/0000165-000. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0034",
+    "code": "4.3.11",
+    "term": "Plágio e direitos autorais",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Citação (ABNT NBR 10520)",
+      "Ética em pesquisa"
+    ],
+    "definition": [
+      "Plágio é apresentar ideias, textos ou resultados de outra pessoa como se fossem próprios. Wazlawick (2014, cap. 10) o aborda junto aos antecedentes, à proteção dos direitos autorais e à lei brasileira. A Lei nº 9.610/1998 considera autor a pessoa física criadora da obra (art. 11) e esclarece que ideias, métodos e conceitos matemáticos, como tais, não são objeto de proteção autoral (art. 8º, I), de modo que a proteção recai sobre a forma da obra.",
+      "Comentário da equipe: o dever acadêmico de citar vai além da proteção legal, pois exige creditar também as ideias de terceiros."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. BRASIL. Lei nº 9.610, de 19 de fevereiro de 1998. Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências. Brasília, DF: Presidência da República, 1998. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0035",
+    "code": "4.3.12",
+    "term": "Ética em pesquisa",
+    "categoryId": 3,
+    "category": "Trabalho científico, escrita e normas",
+    "related": [
+      "Plágio e direitos autorais"
+    ],
+    "definition": [
+      "A Resolução CNS nº 510/2016 dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais cujos procedimentos envolvam dados obtidos diretamente de participantes ou informações identificáveis. Entre os casos dispensados de avaliação pelo sistema CEP/Conep estão, por exemplo, pesquisas de opinião pública com participantes não identificados (art. 1º, parágrafo único). Trabalhos de Computação que envolvam pessoas (entrevistas, testes de usabilidade, questionários) devem verificar com a instituição se precisam de avaliação ética."
+    ],
+    "references": [
+      "BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. Resolução nº 510, de 7 de abril de 2016. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Diário Oficial da União: seção 1, Brasília, DF, n. 98, p. 44, 24 maio 2016. Disponível em: http://bvsms.saude.gov.br/bvs/saudelegis/cns/2016/res0510_07_04_2016.html. Acesso em: 2 nov. 2026.",
+      "4.4 Comunicação científica, avaliação e acesso à literatura"
+    ]
+  },
+  {
+    "id": "M-0036",
+    "code": "4.4.1",
+    "term": "Eventos científicos da área",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Associações científicas (SBC, ACM e IEEE)",
+      "Artigo científico"
+    ],
+    "definition": [
+      "Em Computação, congressos e simpósios são veículos importantes de publicação (Wazlawick, 2014, seção 9.8.2 trata das conferências na avaliação Qualis). A SBC realiza o Congresso da SBC (CSBC), em cujo âmbito ocorre o Workshop sobre Educação em Computação (WEI), e outros eventos como o Congresso Brasileiro de Informática na Educação (CBIE) (SBC, 2018); em 2022 apresentou também simpósios científicos e escolas regionais (SBC, 2022). A ACM registra que muitas de suas conferências se tornaram eventos de referência mundial (ACM, [2026]).",
+      "Ao escolher um evento, a equipe deve verificar chamada de trabalhos, prazos, formato do artigo, forma de avaliação e onde os anais serão publicados."
+    ],
+    "references": [
+      "WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026. SOCIEDADE BRASILEIRA DE COMPUTAÇÃO. [Parecer da SBC sobre a revisão da Tabela de Classificação dos Cursos de Graduação e Sequenciais, versão 2018]. Porto Alegre: SBC, 30 abr. 2018. Disponível em: https://www.sbc.org.br/wp-content/uploads/2024/07/ParecerSBC-INEP-Reclassifica-odeCurs os-2018-04-30.pdf. Acesso em: 2 nov. 2026. SOCIEDADE BRASILEIRA DE COMPUTAÇÃO. [Apresentação institucional da SBC ao Comitê Gestor da Internet no Brasil]. Brasília, DF: CGI.br, 22 jul. 2022. Slides. Disponível em: https://cgi.br/media/atas/pdf/20220722-apresentacao-SBC-2022.pdf. Acesso em: 2 nov. 2026. ASSOCIATION FOR COMPUTING MACHINERY. ACM history. New York: ACM, [2026]. Disponível em: https://www.acm.org/acm-history. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0037",
+    "code": "4.4.2",
+    "term": "Periódicos da área",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Qualis e avaliação da produção",
+      "Artigo científico"
+    ],
+    "definition": [
+      "Periódicos científicos publicam artigos avaliados por pares. Entre os periódicos da SBC apresentados em 2022 estão SBC Reviews on Computer Science, Revista Brasileira de Sistemas de Informação, Revista Brasileira de Informática na Educação e Revista Eletrônica",
+      "de Iniciação Científica em Computação (SBC, 2022). A ACM tem como publicação principal a Communications of the ACM (ACM, [2026]). Wazlawick (2014, seção 9.8.1) discute a avaliação de periódicos."
+    ],
+    "references": [
+      "SOCIEDADE BRASILEIRA DE COMPUTAÇÃO. [Apresentação institucional da SBC ao Comitê Gestor da Internet no Brasil]. Brasília, DF: CGI.br, 22 jul. 2022. Slides. Disponível em: https://cgi.br/media/atas/pdf/20220722-apresentacao-SBC-2022.pdf. Acesso em: 2 nov. 2026. ASSOCIATION FOR COMPUTING MACHINERY. ACM history. New York: ACM, [2026]. Disponível em: https://www.acm.org/acm-history. Acesso em: 2 nov. 2026. WAZLAWICK, Raul Sidnei. Metodologia de pesquisa para ciência da computação. 2. ed. Rio de Janeiro: Elsevier, 2014. ISBN 978-85-352-7782-1. Disponível em: https://shop.elsevier.com/books/metodologia-de-pesquisa-para-ciencia-da-computacao/wazla wick/978-85-352-7782-1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0038",
+    "code": "4.4.3",
+    "term": "Qualis e avaliação da produção",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Periódicos da área",
+      "Índice h"
+    ],
+    "definition": [
+      "O Qualis-periódicos, sistema de classificação de revistas criado pela CAPES nos anos 2000, não será mais usado para avaliar a produção dos programas de pós-graduação no quadriênio 2025-2028. A avaliação passa a se concentrar no artigo, por três procedimentos que cada área pode combinar: um baseado em indicadores bibliométricos do periódico, outro que combina elementos quantitativos do artigo com critérios qualitativos do periódico e um terceiro de avaliação qualitativa de cada artigo (Schmidt, 2024).",
+      "Atenção: livros de metodologia anteriores (inclusive capítulos sobre Qualis) podem estar desatualizados. A equipe deve consultar o documento orientador da área de Ciência da Computação junto à CAPES."
+    ],
+    "references": [
+      "SCHMIDT, Sarah. Qualis-periódicos será substituído por classificação com foco nos artigos. Pesquisa FAPESP, São Paulo, 26 out. 2024. Disponível em: https://revistapesquisa.fapesp.br/qualis-periodicos-sera-substituido-por-classificacao-com-foc o-nos-artigos/. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0039",
+    "code": "4.4.4",
+    "term": "Associações científicas (SBC, ACM e IEEE)",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Eventos científicos da área",
+      "Periódicos da área"
+    ],
+    "definition": [
+      "SBC: sociedade científica sem fins lucrativos, fundada em julho de 1978, que reúne estudantes, professores, profissionais e pesquisadores de Computação e Informática do Brasil (SBC, 2022a).",
+      "ACM: fundada em 15 de setembro de 1947 como Eastern Association for Computing Machinery (o termo “Eastern” foi retirado em janeiro de 1948), é descrita por si mesma como a maior sociedade educacional e científica de Computação; mantém a Digital Library e publica a Communications of the ACM (ACM, [2026]).",
+      "IEEE: formado em 1º de janeiro de 1963 pela fusão do AIEE (1884) e do IRE (1912) (ETHW, [2026])."
+    ],
+    "references": [
+      "SOCIEDADE BRASILEIRA DE COMPUTAÇÃO. Relatório anual da SBC 2021/2022. Porto Alegre: SBC, 2022. Disponível em: https://books-sol.sbc.org.br/index.php/sbc/catalog/download/102/459/731?inline=1. Acesso em: 2 nov. 2026. ASSOCIATION FOR COMPUTING MACHINERY. ACM history. New York: ACM, [2026]. Disponível em: https://www.acm.org/acm-history. Acesso em: 2 nov. 2026. ENGINEERING AND TECHNOLOGY HISTORY WIKI. IEEE history. [S. l.]: ETHW, [2026]. Disponível em: https://ethw.org/IEEE_History. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0040",
+    "code": "4.4.5",
+    "term": "Repositórios e portais científicos",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Plataformas de acesso a trabalhos acadêmicos",
+      "Preprints"
+    ],
+    "definition": [
+      "Repositórios e portais reúnem e preservam a produção científica. Exemplos brasileiros: o Portal de Periódicos da CAPES, biblioteca virtual que disponibiliza às instituições de ensino e pesquisa produção científica nacional e internacional, com acesso remoto via CAFe para instituições federadas (CAPES, 2019); a BDTD, do Ibict, que integra em um só portal as teses e dissertações das instituições e foi criada em 2002 (Amaro, 2018; Ibict, 2024); o SciELO, cuja metodologia de publicação eletrônica de periódicos foi descrita por Packer et al. (1998); e a SBC OpenLib (SOL), que hospeda anais e livros da SBC."
+    ],
+    "references": [
+      "COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR. Portal de Periódicos CAPES: manual de acesso. Brasília, DF: CAPES, 2019. Disponível em: https://www.periodicos.capes.gov.br/images/documents/Portal_Peri%C3%B3dicos_CAPES_ Guia_2019_4_oficial.pdf. Acesso em: 2 nov. 2026. INSTITUTO BRASILEIRO DE INFORMAÇÃO EM CIÊNCIA E TECNOLOGIA. Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) apresenta nova interface e funcionalidades aos usuários. Brasília, DF: Ibict, jan. 2024. Disponível em: https://www.gov.br/ibict/pt-br/central-de-conteudos/noticias/2024/janeiro/biblioteca-digital-br asileira-de-teses-e-dissertacoes-bdtd-apresenta-nova-interface-e-funcionalidades-aos-usuarios. Acesso em: 2 nov. 2026. AMARO, Bianca. [Apresentação sobre infraestruturas de ciência aberta do Ibict]. In: ENCONTRO DE CIÊNCIA ABERTA, 1., 18 set. 2018. Brasília, DF: CAPES, 2018. Slides. Disponível em:",
+      "https://www.gov.br/capes/pt-br/centrais-de-conteudo/20180918_1EncontrodeCienciaAberta_ BiancaAmaro_IBICT.pdf. Acesso em: 2 nov. 2026. PACKER, Abel Laerte et al. SciELO: uma metodologia para publicação eletrônica. Ciência da Informação, Brasília, DF, v. 27, n. 2, p. 109-121, maio/ago. 1998. Disponível em: https://revista.ibict.br/ciinf/article/download/791/821/879. Acesso em: 2 nov. 2026. SOCIEDADE BRASILEIRA DE COMPUTAÇÃO. Relatório anual da SBC 2021/2022. Porto Alegre: SBC, 2022. Disponível em: https://books-sol.sbc.org.br/index.php/sbc/catalog/download/102/459/731?inline=1. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0041",
+    "code": "4.4.6",
+    "term": "Plataformas de acesso a trabalhos acadêmicos",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Repositórios e portais científicos",
+      "IAs acadêmicas"
+    ],
+    "definition": [
+      "Plataformas de acesso são serviços de busca e leitura da literatura. A ACM Digital Library reúne citações e textos completos de periódicos, boletins e anais da ACM (ACM, [2026]). O Semantic Scholar é uma plataforma de dados abertos que integra mais de 50 fontes, entre elas Crossref e arXiv, para construir um grafo acadêmico com artigos, autores e citações (Kinney et al., 2023). O acesso a conteúdo assinado costuma depender do vínculo institucional (por exemplo, via CAFe no Portal da CAPES)."
+    ],
+    "references": [
+      "ASSOCIATION FOR COMPUTING MACHINERY. ACM history. New York: ACM, [2026]. Disponível em: https://www.acm.org/acm-history. Acesso em: 2 nov. 2026. KINNEY, Rodney et al. The Semantic Scholar Open Data Platform. [S. l.]: arXiv, 24 jan. 2023. Versão 2: 25 abr. 2025. arXiv:2301.10140 [cs.DL]. Disponível em: https://arxiv.org/abs/2301.10140. Acesso em: 2 nov. 2026. COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR. Portal de Periódicos CAPES: manual de acesso. Brasília, DF: CAPES, 2019. Disponível em: https://www.periodicos.capes.gov.br/images/documents/Portal_Peri%C3%B3dicos_CAPES_ Guia_2019_4_oficial.pdf. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0042",
+    "code": "4.4.7",
+    "term": "IAs acadêmicas",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Plataformas de acesso a trabalhos acadêmicos",
+      "Declaração de uso de IA"
+    ],
+    "definition": [
+      "Ferramentas de IA para pesquisa acadêmica se dividem em dois grupos. Serviços de busca com recursos de aprendizado de máquina, como o Semantic Scholar, oferecem páginas de autor geradas automaticamente, bibliotecas pessoais e recomendações de artigos (Kinney et al., 2023). Assistentes conversacionais baseados em modelos de linguagem podem redigir texto, mas geram referências inexistentes: em estudo com 636 citações, Walters e Wilder (2023) encontraram 55% de citações fabricadas no GPT-3.5 e 18% no GPT-4, além de erros substantivos em parte das citações reais.",
+      "Boa prática: nunca usar uma referência sugerida por IA sem localizar o documento original (por DOI, editora ou repositório) e declarar o uso da ferramenta (ver a declaração ao final deste documento)."
+    ],
+    "references": [
+      "KINNEY, Rodney et al. The Semantic Scholar Open Data Platform. [S. l.]: arXiv, 24 jan. 2023. Versão 2: 25 abr. 2025. arXiv:2301.10140 [cs.DL]. Disponível em: https://arxiv.org/abs/2301.10140. Acesso em: 2 nov. 2026. WALTERS, William H.; WILDER, Esther Isabelle. Fabrication and errors in the bibliographic citations generated by ChatGPT. Scientific Reports, [S. l.], v. 13, art. 14045, 7 set. 2023. Disponível em: https://doi.org/10.1038/s41598-023-41032-5. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0043",
+    "code": "4.4.8",
+    "term": "Preprints",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Repositórios e portais científicos",
+      "Ciência aberta e FAIR"
+    ],
+    "definition": [
+      "Preprint é a versão de um trabalho divulgada antes da avaliação por pares. O arXiv, repositório criado por Paul Ginsparg, é o exemplo mais conhecido na Computação; Ginsparg (2011) relata sua trajetória, seus desafios de financiamento e de controle de qualidade. Preprints não substituem a revisão por pares: ao citá-los, indique que se trata de versão não revisada."
+    ],
+    "references": [
+      "GINSPARG, Paul. ArXiv at 20. Nature, London, v. 476, n. 7359, p. 145-147, 11 ago. 2011. Disponível em: https://doi.org/10.1038/476145a. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0044",
+    "code": "4.4.9",
+    "term": "Ciência aberta e princípios FAIR",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Preprints",
+      "Repositórios e portais científicos"
+    ],
+    "definition": [
+      "Os princípios FAIR (Findable, Accessible, Interoperable, Reusable) são diretrizes para melhorar a reutilização de dados científicos. Wilkinson et al. (2016), a primeira publicação formal dos princípios, enfatizam que máquinas devem conseguir encontrar e usar os dados automaticamente, além de apoiar o reuso por pessoas. Entre os coautores está Abel L. Packer, um dos autores da metodologia SciELO."
+    ],
+    "references": [
+      "WILKINSON, Mark D. et al. The FAIR guiding principles for scientific data management and stewardship. Scientific Data, [S. l.], v. 3, art. 160018, 15 mar. 2016. Disponível em: https://doi.org/10.1038/sdata.2016.18. Acesso em: 2 nov. 2026."
+    ]
+  },
+  {
+    "id": "M-0045",
+    "code": "4.4.10",
+    "term": "Índice h",
+    "categoryId": 4,
+    "category": "Comunicação científica, avaliação e acesso à literatura",
+    "related": [
+      "Qualis e avaliação da produção"
+    ],
+    "definition": [
+      "Proposto por Hirsch (2005), o índice h de um pesquisador é h quando h de seus artigos têm pelo menos h citações cada e os demais têm no máximo h. O autor ressalva que a base de",
+      "dados usada deve cobrir todo o período das publicações e que a comparação é mais adequada entre pesquisadores com o mesmo tempo de carreira. Por depender da base de dados e da área, deve ser interpretado com cautela."
+    ],
+    "references": [
+      "HIRSCH, J. E. An index to quantify an individual's scientific research output. Proceedings of the National Academy of Sciences of the United States of America, [S. l.], v. 102, n. 46, p. 16569-16572, nov. 2005. Disponível em: https://doi.org/10.1073/pnas.0507655102. Acesso em: 2 nov. 2026."
+    ]
+  }
+]
